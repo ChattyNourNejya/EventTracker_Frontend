@@ -1,0 +1,51 @@
+/* Increase space between navbar items */
+.navbar-nav {
+  justify-content: space-between;
+}
+
+.navbar-nav .nav-item,
+.navbar-nav .item {
+  text-align: center;
+  font-size: 1.3em; 
+}
+
+.navbar-nav .event {
+  background-color: #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.navbar-nav .item {
+  white-space: nowrap;
+  margin-right: 100%; /* Adjust for desired spacing */
+}
+
+/* Hover effect */
+.navbar-nav .nav-item:hover a,
+.navbar-nav .item:hover {
+  color: rgb(68, 43, 43);
+}
+
+/* Deconnection button style */
+.navbar-nav .item a {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+}
+
+/* Specific hover style for Deconnection button */
+.navbar-nav .item:hover a {
+  background-color: #ccc;
+}
+
+/* Event styling */
+.navbar-nav .event {
+  margin-right: 5%;
+}
+
+/* Deconnection button positioning */
+.float-left {
+  float: left;
+}
